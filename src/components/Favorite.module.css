@@ -1,0 +1,26 @@
+.favorite {
+    display: relative;
+    height: 90px;;
+}
+
+.ellips {
+    height: 80px;
+    position: relative;
+
+}   
+
+.img {
+    height: 70px;
+    position: relative;
+    left: -70px;
+}
+
+.text {
+    font-size: 20px;
+    height: 90px;
+    width: 322px;
+    position: relative;
+    left: 140px;
+    top: -90px;
+    
+}

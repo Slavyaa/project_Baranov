@@ -1,38 +1,438 @@
-.App {
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Open, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* HEADER */
+
+.back {
+  background-image: url('./images/background3.png');
+  background-color: #a4a4a4;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+.header{
+  padding: 10px 200px;
+}
+
+
+/* БЛОК С КАРТИНКОЙ НА ФОНЕ */
+
+.hero {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 10px 200px;
+  height: 750px;
+}
+.hero-text{
+  position: absolute;
+  top: 100px;
+}
+.hero-text h1 {
+  font-size: 70px;
+  margin: 0;
+  color: #333;
+}
+.hero-text h1:last-of-type {
+  color: #007bff;
+}
+.hero-text p {
+  font-size: 20px;
+  color: #666;
+  width: 400px;
+  margin: 40px 0;
+  line-height: 30px;
+  /* text-shadow:
+    2px 0 white,
+    0 -2px white,
+    -2px 0 white,
+    0 2px white; */
+    text-shadow: 0 0 5px white,
+    0 0 10px white,
+    0 0 15px white;  
+}
+.hero-text .btn {
+  height: 70px;
+  width: 300px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 25px;
+  position: absolute;
+
+}
+
+.hero-text .btn:hover {
+  background-color: #0056b3;
+}
+.sofa {
+  width: 50%;
+  max-width: 782px;
+  /* min-width: 456px;  */
+  position: absolute;
+  bottom: 5px;
+  left: 48%;
+  z-index: 0;
+}
+.tree {
+  height: 600px;
+  position: absolute;
+  top: 22%;
+  left: 70%
+}
+.features {
+  display: flex;
+}
+.features div {
+  display: flex;
+  align-items: center;
+}
+.features p {
+  width: 200px;
+  margin: 40px 10px;
+}
+.features div {
+  text-align: center;
+  color: #333;
+}
+.features div img {
+  height: 50px;
+}
+
+/* БЛОК С БЛОКАМИ И ФОРМОЙ */
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
+}
+
+.price_text {
+  padding-top: 50px;
+  font-size: 40px;
+  color: #333;
+  font-weight: bold;
+}
+
+.price .blocks {
+
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 90px 90px 90px;
+  grid-gap: 20px 80px; 
+  
+}
+
+.price .section_right{
+  margin-top: 110px;
+  margin-left: 50px;
+
+}
+
+/* БЛОК НАШИ УСЛУГИ */
+
+.services{
+  padding: 10px 200px;
+}
+
+.services .icons{
+    display: flex;
+    justify-content: center;
+}
+
+.services .left_icon{
+  margin-right: 30px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.services .other_icon{
+  display: grid;
+  grid-template-columns: 430px 430px;
+  gap: 30px;
+}
+
+.services h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+}
+
+
+/* БЛОК ПРО ЦИФРЫ */
+
+.digits{
+  padding: 10px 200px;
+}
+
+.digits h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.digits .icons{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 90px 90px;
+  grid-gap: 60px 100px; 
+}
+
+/* ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ */
+
+.faq{
+  padding: 10px 200px;
+}
+
+.faq h1 {
+  text-align: left;
+  font-size: 40px;
+  margin: 50px 50px 50px 0px;
+}
+
+.faq .icons{
+  display: flex;
+}
+
+.faq .column{
+  display: block;
+  width: 50%;
+  margin: 10px;
+}
+
+
+/* БЛОК С БОЛЬШОЙ КАРТИНОЙ И ФОРМОЙ */
+
+.change{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
+}
+
+.change h1{
+  text-align: left;
+  font-size: 40px;
+  margin: 50px 50px 50px 0px;
+}
+
+.change .section_left p{
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #626262;
+  font-weight: bold;
+}
+
+.change_img{
+  width: 80%;
+  max-width: 706px;
+  /* min-width: 500px; */
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.change .section_right{
+  padding-top: 90px;
+}
+
+/* БЛОК С КАРТОЙ */
+
+.map{
+  padding: 40px 200px;
+  position: relative;
+  height: 600px;
+}
+
+.map_block {
+  width: 450px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 100;
+}
+
+.map_block h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.map_block p {
+  font-size: 20px;
+  color: #626262;
+}
+
+.phone, .locate, .mail {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.phone img, .locate img, .mail img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.map_block img{
+  width: 50px;
+  height: 50px;
+}
+
+.social{
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social img{
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.back_map{
+  width: 50%;
+  max-width: 1200px;
+  min-width: 700px;
+  position: absolute;
+  top: 20%; 
+  left: 22%;
+  width: 60vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* ФУТЕР */
+
+footer{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 120px;
+  margin-top: 150px;
+  padding-left: 200px;
+  display: flex;
+  background: rgb(87,87,87);
+  background: linear-gradient(0deg, rgba(87,87,87,1) 40%, rgba(32,32,32,1) 98%);
+  padding-right: 46%;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+footer img{
+  height: 70px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer p{
+  font-size: 22px;
+  color:white;
+}
+
+
+@media screen and (max-width:1673px)
+{
+  .digits .icons{
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 90px 90px 90px;
   }
-  to {
-    transform: rotate(360deg);
+  .price {
+    display: block;
+  }
+  .price .section_right{
+    margin-top: 50px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .change {
+    display: block;
+  }
+  .change .section_right{
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .services .icons{
+    display: block;
+}
+.services .left_icon{
+  display: flex;
+  justify-content: center;
+  
+}
+.services .other_icon{
+  justify-content: center;
+}
+  
+}
+
+@media screen and  (max-width: 1200px) /*для ноутбуков */
+{
+  .price .blocks {
+    grid-template-columns: 400px;
+    grid-template-rows: 90px;
+    grid-gap: 20px; 
+  }
+  .digits .icons{
+    justify-content: left;
+    grid-template-columns: 400px;
+    grid-template-rows: 90px;
+    grid-gap: 20px; 
+  }
+  .services .left_icon{
+    margin-right: 0px;
+    margin-bottom: 30px;
+    align-self: center;
+  }
+  
+  .services .other_icon{
+    display: grid;
+    grid-template-columns: 430px;
+    gap: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 992px) /*для планшетов */
+{
+  .hero h1{
+    font-size: 50px;
+  }
+  .hero .btn{
+    font-size: 22px;
+  }
+  .services h1, .digits h1, .change h1, .faq h1, .map h1{
+    font-size: 35px;
+  }
+
+  .hero, .price, .services, .digits, .change, .faq, .map, .header, .footer {
+    padding: 10px 100px;
+  }
+
+  .back_map{
+    display: none;
+  }
+
+  .map{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+ @media screen and (max-width: 768px)  /*для мобилок*/
+{
+  .hero, .price, .services, .digits, .change, .faq, .map, .header, .footer {
+    padding: 10px 50px;
   }
 }
