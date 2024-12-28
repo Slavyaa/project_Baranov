@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/project_Baranov/static/css/main.aa0ed36e.css",
+    "main.js": "/project_Baranov/static/js/main.108d4570.js",
+    "static/media/background3.png": "/project_Baranov/static/media/background3.8de570c7641911ac3c2d.png",
+    "static/media/map.png": "/project_Baranov/static/media/map.9dcb35891f0b2b9b0cbb.png",
+    "static/media/sofa2.png": "/project_Baranov/static/media/sofa2.82a52078f21620f0bd0c.png",
+    "static/media/napoln.png": "/project_Baranov/static/media/napoln.8ad5a0a63b654f207c17.png",
+    "static/media/sofaCHB.png": "/project_Baranov/static/media/sofaCHB.a33edacaf788b5404dc3.png",
+    "static/media/karkas.png": "/project_Baranov/static/media/karkas.ab36191f366650e85092.png",
+    "static/media/cat.png": "/project_Baranov/static/media/cat.a013bb2dfa3192905324.png",
+    "static/media/matras.png": "/project_Baranov/static/media/matras.18fb60372c2fc1bb91fe.png",
+    "static/media/meha.png": "/project_Baranov/static/media/meha.75052a891e69504dd4a8.png",
+    "static/media/sofaBlock.png": "/project_Baranov/static/media/sofaBlock.27fa5515673756e74ca8.png",
+    "static/media/dogovor.png": "/project_Baranov/static/media/dogovor.28e1d0e38517e6dc47b5.png",
+    "static/media/grant.png": "/project_Baranov/static/media/grant.36f409fe351aed718035.png",
+    "static/media/money.png": "/project_Baranov/static/media/money.c032c553aa4233df9af8.png",
+    "static/media/3ceha.png": "/project_Baranov/static/media/3ceha.af1e198c20e3a293ee71.png",
+    "static/media/master.png": "/project_Baranov/static/media/master.33dcac2f4db14dab155b.png",
+    "static/media/materital.png": "/project_Baranov/static/media/materital.72702d2c4db2037ad4d3.png",
+    "static/media/car.png": "/project_Baranov/static/media/car.778e5ea5151b22242e28.png",
+    "index.html": "/project_Baranov/index.html",
+    "main.aa0ed36e.css.map": "/project_Baranov/static/css/main.aa0ed36e.css.map",
+    "main.108d4570.js.map": "/project_Baranov/static/js/main.108d4570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa0ed36e.css",
+    "static/js/main.108d4570.js"
+  ]
+}
